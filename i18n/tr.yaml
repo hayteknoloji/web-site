@@ -11,20 +11,20 @@
 - id: authorsPosts
   translation: Articles de l'auteur
 - id: all
-  translation: All
+  translation: Hepsi
 - id: about
-  translation: À propos
+  translation: Hakkımızda
 - id: services
-  translation: Services
+  translation: Projeler
 - id: portfolio
-  translation: Portfolio
+  translation: Teknolojiler
 - id: team
-  translation: Équipe
+  translation: Takım
 - id: pricing
   translation: Tarification
 - id: blog
   translation: Blog
 - id: contact
-  translation: Contact
+  translation: İletişim
 - id: themefisher
   translation: Themefisher

@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://hayteknoloji.github.io/web-site/"
-title = "Meghna"
+title = "Hay Teknoloji"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -49,21 +49,28 @@ link = "plugins/google-map/map.js"
 ############################# Navigation ##################################
 [[menu.main]]
 name = "about"
-pre = "#"
+pre = ""
 url = "about"
 weight = 1
 
 [[menu.main]]
 name = "services"
-pre = "#"
+pre = ""
 url = "services"
 weight = 2
 
 [[menu.main]]
 name = "portfolio"
-pre = "#"
+pre = ""
 url = "portfolio"
 weight = 3
+
+
+[[menu.main]]
+name = "contact"
+pre = ""
+url = "contact"
+weight = 4
 
 # [[menu.main]]
 # name = "team"
@@ -82,12 +89,6 @@ weight = 3
 # pre = "#"
 # url = "blog"
 # weight = 6
-
-[[menu.main]]
-name = "contact"
-pre = "#"
-url = "contact"
-weight = 7
 
 
 ############################# Default Parameters ##########################
