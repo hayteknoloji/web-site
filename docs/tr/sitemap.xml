@@ -33,21 +33,6 @@
   </url>
   
   <url>
-    <loc>https://hayteknoloji.github.io/web-site/blog/installation/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hayteknoloji.github.io/web-site/en/blog/installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://hayteknoloji.github.io/web-site/blog/installation/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hayteknoloji.github.io/web-site/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
@@ -59,6 +44,21 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://hayteknoloji.github.io/web-site/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hayteknoloji.github.io/web-site/blog/installation/</loc>
+    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hayteknoloji.github.io/web-site/en/blog/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://hayteknoloji.github.io/web-site/blog/installation/"
                 />
   </url>
   
