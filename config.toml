@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://hayteknoloji.github.io/web-site/"
 title = "Meghna"
 theme = "meghna-hugo"
 # post pagination
