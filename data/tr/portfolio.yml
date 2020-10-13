@@ -1,84 +1,50 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Kullandığımız Teknolojiler
   portfolio_item :
     # portfolio item loop
-    - name : Tag Mobil
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["Mobil"]
+    - name : Go Lang
+      image : images/portfolio/golang.jpg
+      categories : ["Back-End"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "https://themefisher.com"
-      
+
+
     # portfolio item loop
-    - name : asd
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["back end"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-      
-    # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["back end"]
+    - name : Net Core
+      image : images/portfolio/net-core.jpg
+      categories : ["Back-End"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
     # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["back end"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["Mobil"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Mobil
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
+    - name : Vue.js
+      image : images/portfolio/vue.jpg
       categories : ["front end"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["back end"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Mobil
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["Mobil"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Mobil
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["Mobil"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+      link : ""
 
-        # portfolio item loop
+    # portfolio item loop
+    - name : Vue.js
+      image : images/portfolio/nuxt.jpg
+      categories : ["front end"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : ""
+
+      
+    # portfolio item loop
+    - name : Flutter
+      image : images/portfolio/flutter.jpg
+      categories : ["mobil"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+
+    # portfolio item loop
     - name : Tag Mobil
       image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      # image_webp : images/portfolio/portfolio-2.webp
       categories : ["Desktop"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
