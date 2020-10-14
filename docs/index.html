@@ -4,6 +4,12 @@
 	<meta charset="utf-8">
 	<title>Hay Teknoloji</title>
 
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description"
@@ -42,6 +48,8 @@
 
 
 	
+
+
 
 </head>
 
@@ -566,6 +574,10 @@
 
 
 
+<script src="https://hayteknoloji.github.io/web-site/js/mailto.js" integrity=""></script>
+
+
+
 
 
 
@@ -577,7 +589,8 @@
 				<!-- section title -->
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 					<h2> Bize <span class="color">
-							  Ulaşın </span></h2>
+							  Ulaşın </span>
+					</h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
@@ -603,7 +616,7 @@
 					
 					<div class="con-info clearfix">
 						<i class="ti-email"></i>
-						<span>Email: info@hayteknoloji.com</span>
+						<span>Email: bilgi@hayteknoloji.com</span>
 					</div>
 					
 				</div>
@@ -614,30 +627,52 @@
 			
 			
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="#" role="form">
+
+				<form id="contact-form" class="form-meghna" enctype="text/plain" accept-charset="utf-8">
 					<div class="form-group">
-						<input type="text" placeholder="İsim Soyisminiz" class="form-control" name="name" id="name">
+						<input id="nameText" class="form-control" type="text" name="Name" value size="60"
+							placeholder="İsim Soyisim" required>
 					</div>
 					<div class="form-group">
-						<input type="email" placeholder="Sizin Mailiniz" class="form-control" name="email" id="email">
+						<input id="emailText" class="form-control" type="email" name="Email" value size="60"
+							placeholder="Mail" required>
 					</div>
+
 					<div class="form-group">
-						<input type="text" placeholder="Konu" class="form-control" name="subject" id="subject">
+						<input id="telText" class="form-control" type="tel" name="Phone" value size="60"
+							aria-invalid="false" placeholder="Numara" required>
 					</div>
+
 					<div class="form-group">
-						<textarea rows="6" placeholder="Mesajınız" class="form-control" name="message" id="message"></textarea>
+						<input id="subText" class="form-control" type="text" name="Subject" value size="60"
+							aria-invalid="false" placeholder="Konu" required>
+
 					</div>
+
+					<div class="form-group">
+						<textarea rows="6" id="bodyText" class="form-control" name="your-message" cols="40" rows="10"
+							aria-required="true" aria-invalid="false" placeholder="Mesajınız" required></textarea>
+
+					</div>
+
 					<div id="cf-submit">
-						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
-							value="Gönder">Gönder</button>
+						<input type="button" class="btn btn-transparent btn-block" id="submit" value="Gönder"
+							onclick="submitHandler();">
+						<a id="mailTo"></a>
 					</div>
+
 				</form>
+
 			</div>
 			
 			
 		</div>
 	</div>
+
 </section>
+
+
+
 <!-- /contact -->
 
 

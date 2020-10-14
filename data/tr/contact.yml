@@ -17,15 +17,16 @@ contact:
     #   info : "Fax: +880-31-000-000"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: info@hayteknoloji.com"
+      info : "Email: bilgi@hayteknoloji.com"
 
 
   # Contact form
   contact_form:
     enable : true
     form_action : "#" #contact form works with https://formspree.io
-    name : "İsim Soyisminiz"
-    email : "Sizin Mailiniz"
+    name : "İsim Soyisim"
+    email : "Mail"
+    phone : "Numara"
     subject : "Konu"
     message : "Mesajınız"
     submit : "Gönder"
