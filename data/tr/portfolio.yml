@@ -40,11 +40,3 @@ portfolio:
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "#"
       
-
-    # portfolio item loop
-    - name : Tag Mobil
-      image : images/portfolio/portfolio-2.jpg
-      # image_webp : images/portfolio/portfolio-2.webp
-      categories : ["Desktop"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"

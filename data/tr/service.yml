@@ -1,7 +1,7 @@
 ################################# Service #################################
 service:
   enable : true
-  title : Projelerimiz
+  title : Çözümlerimiz
   service_item :
     # service item loop
     - name : Web Uygulamaları
@@ -11,24 +11,24 @@ service:
     # service item loop
     - name : Mobil Uygulamalar
       icon : fas fa-mobile-alt # themify icon pack : https://themify.me/themify-icons
-      # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
    
     # service item loop
     - name : Yapay Zeka Çözümleri
       icon : fas fa-brain # themify icon pack : https://themify.me/themify-icons
-      # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
    
     # service item loop
     - name : Desktop Uygulamaları
       icon : fas fa-desktop # themify icon pack : https://themify.me/themify-icons
-      # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 
     # service item loop
-    - name : Uzaktan Eğitim Siztemleri
+    - name : Uzaktan Eğitim Sistemleri
       icon : fas fa-chalkboard # themify icon pack : https://themify.me/themify-icons
-      # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
     # service item loop
-    - name :  .????Networking??
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      # content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name :  Web Otomasyon Sistemleri
+      icon : far fa-keyboard # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
